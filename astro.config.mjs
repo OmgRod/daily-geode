@@ -4,11 +4,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+ site: 'https://omgrod.me/daily-geode',
+    base: 'daily-geode',
 	integrations: [
 		starlight({
 			title: 'The Daily Geode',
-    site: 'https://omgrod.me/daily-geode',
-    base: 'daily-geode',
 			pagination: false,
 			logo: {
 				light: './src/assets/logo-light.png',
