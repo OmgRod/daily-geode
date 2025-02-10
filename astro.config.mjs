@@ -7,6 +7,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'The Daily Geode',
+    site: 'https://omgrod.me/daily-geode',
+    base: 'daily-geode',
 			pagination: false,
 			logo: {
 				light: './src/assets/logo-light.png',
